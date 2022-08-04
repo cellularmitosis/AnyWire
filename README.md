@@ -2,7 +2,8 @@
 
 Arduino abstraction layer to support both Wire and SoftwareWire.
 
-Included in this repo are forked copies of [SoftwareWire](https://github.com/Testato/SoftwareWire) and HTU2xD_SHT2x_Si70xx,
+Included in this repo are forked copies of [SoftwareWire](https://github.com/Testato/SoftwareWire)
+and [HTU2xD_SHT2x_Si70xx](https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx),
 which have been modified to support AnyWire.
 
 See the included `demo.ino`, which reads from both hardware and software I2C sensors.
