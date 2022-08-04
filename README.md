@@ -24,6 +24,22 @@ HTU2xD_SHT2x_SI70xx sw_sht21(HTU2xD_SENSOR, HUMD_12BIT_TEMP_14BIT, &swire);
 ![IMG_1532](https://user-images.githubusercontent.com/223396/182774283-f844ed3e-02dd-4ecd-a89c-0bdf09546764.jpg)
 
 
+## Caveats
+
+Not all of the [Wire API](https://www.arduino.cc/reference/en/language/functions/communication/wire/) is supported by SoftwareWire.
+For the unsupported portions, AnyWire simply enters into an infinite loop:
+
+```cpp
+bool AnyWire::getWireTimeoutFlag(void) {
+  if (_softwareWire) {
+    while (1) { __asm volatile(""); } // not supported
+  } else {
+    return Wire.getWireTimeoutFlag();
+  }
+}
+```
+
+
 ## License
 
 `AnyWire.h`, `AnyWire.cpp` and `demo.ino` are copyright 2022 Jason Pepas,
