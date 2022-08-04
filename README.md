@@ -39,6 +39,14 @@ bool AnyWire::getWireTimeoutFlag(void) {
 }
 ```
 
+These include:
+- `begin()` when called with an address
+- `setWireTimeout()` when called with `reset_with_timeout = true`
+- `getWireTimeoutFlag()`
+- `clearWireTimeoutFlag()`
+- `requestFrom()` when called with an second "internal" address and size
+- `flush()`
+
 
 ## License
 
