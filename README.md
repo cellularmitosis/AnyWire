@@ -1,12 +1,15 @@
 # AnyWire
 
-Arduino abstraction layer to support both Wire and SoftwareWire.
+[Arduino](https://en.wikipedia.org/wiki/Arduino) abstraction layer
+to support both [Wire](https://www.arduino.cc/reference/en/language/functions/communication/wire/)
+and [SoftwareWire](https://www.arduino.cc/reference/en/libraries/softwarewire/).
 
 Included in this repo are a local copy of [SoftwareWire](https://github.com/Testato/SoftwareWire)
 and a forked copy of [HTU2xD_SHT2x_Si70xx](https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx),
 which has been modified to support AnyWire.
 
-See the included `demo.ino`, which reads from both hardware and software I2C sensors.
+See the included `demo.ino`, which reads from both hardware and software I2C sensors
+(["GY-21"](https://www.ebay.com/sch/i.html?_nkw=gy-21) breakout boards).
 
 ```cpp
 // an SHT21 sensor using hardware I2C:
