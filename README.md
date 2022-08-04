@@ -26,11 +26,11 @@ HTU2xD_SHT2x_SI70xx sw_sht21(HTU2xD_SENSOR, HUMD_12BIT_TEMP_14BIT, &swire);
 
 ## License
 
-AnyWire.h, AnyWire.cpp and demo.ino are copyright 2022 Jason Pepas,
+`AnyWire.h`, `AnyWire.cpp` and `demo.ino` are copyright 2022 Jason Pepas,
 released under the terms of the MIT License.  See https://opensource.org/licenses/MIT.
 
-SoftwareWire.h and SoftwareWire.cpp are forked from https://github.com/Testato/SoftwareWire,
+`SoftwareWire.h` and `SoftwareWire.cpp` are forked from https://github.com/Testato/SoftwareWire,
 which is GPL-3.0 licensed.
 
-HTU2xD_SHT2x_Si70xx.h and HTU2xD_SHT2x_Si70xx.cpp are forked from https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx,
+`HTU2xD_SHT2x_Si70xx.h` and `HTU2xD_SHT2x_Si70xx.cpp` are forked from https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx,
 which is GPL-3.0 licensed.
