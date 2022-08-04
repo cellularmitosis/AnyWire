@@ -44,7 +44,7 @@ These include:
 - `setWireTimeout()` when called with `reset_with_timeout = true`
 - `getWireTimeoutFlag()`
 - `clearWireTimeoutFlag()`
-- `requestFrom()` when called with an second "internal" address and size
+- `requestFrom()` when called with a second "internal" address and size
 - `flush()`
 
 
