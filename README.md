@@ -2,9 +2,9 @@
 
 Arduino abstraction layer to support both Wire and SoftwareWire.
 
-Included in this repo are forked copies of [SoftwareWire](https://github.com/Testato/SoftwareWire)
-and [HTU2xD_SHT2x_Si70xx](https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx),
-which have been modified to support AnyWire.
+Included in this repo are a local copy of [SoftwareWire](https://github.com/Testato/SoftwareWire)
+and a forked copy of [HTU2xD_SHT2x_Si70xx](https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx),
+which has been modified to support AnyWire.
 
 See the included `demo.ino`, which reads from both hardware and software I2C sensors.
 
@@ -53,7 +53,7 @@ These include:
 `AnyWire.h`, `AnyWire.cpp` and `demo.ino` are copyright 2022 Jason Pepas,
 released under the terms of the MIT License.  See https://opensource.org/licenses/MIT.
 
-`SoftwareWire.h` and `SoftwareWire.cpp` are forked from https://github.com/Testato/SoftwareWire,
+`SoftwareWire.h` and `SoftwareWire.cpp` are copied from https://github.com/Testato/SoftwareWire,
 which is GPL-3.0 licensed.
 
 `HTU2xD_SHT2x_Si70xx.h` and `HTU2xD_SHT2x_Si70xx.cpp` are forked from https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx,
