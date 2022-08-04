@@ -1,4 +1,4 @@
-// This is a forked copy of SoftwareWire.h which has been modified to support AnyWire.
+// This is a local copy of SoftwareWire.h.
 // See https://github.com/Testato/SoftwareWire (version 1.6.0, commit 2774c3a).
 
 #ifndef SoftwareWire_h

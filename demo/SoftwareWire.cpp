@@ -1,4 +1,4 @@
-// This is a forked copy of SoftwareWire.cpp which has been modified to support AnyWire.
+// This is a local copy of SoftwareWire.cpp.
 // See https://github.com/Testato/SoftwareWire (version 1.6.0, commit 2774c3a).
 
 // Signal differences
