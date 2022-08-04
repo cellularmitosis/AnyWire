@@ -18,17 +18,9 @@ SoftwareWire swire(sw_sda_pin, sw_scl_pin);
 HTU2xD_SHT2x_SI70xx sw_sht21(HTU2xD_SENSOR, HUMD_12BIT_TEMP_14BIT, &swire);
 ```
 
-```
-Found hardware I2C device with id: 7021
-Found software I2C device with id: 7021
-CSV output:
-time_s,hw_temp_c,hw_temp_f,hw_humid,sw_temp_c,sw_temp_f,sw_humid
-1,24.88,76.78,45.03,24.29,75.72,49.22
-2,24.87,76.76,45.00,24.28,75.70,49.19
-3,24.91,76.84,45.00,24.28,75.70,49.21
-4,24.91,76.84,45.02,24.29,75.72,49.21
-5,24.90,76.82,45.03,24.30,75.74,49.22
-```
+![Screen Shot 2022-08-04 at 12 51 50 AM](https://user-images.githubusercontent.com/223396/182774095-247ccadb-fcd0-4be2-8878-ef9eb56ea2ec.png)
+
+![IMG_1532](https://user-images.githubusercontent.com/223396/182774283-f844ed3e-02dd-4ecd-a89c-0bdf09546764.jpg)
 
 
 ## License
