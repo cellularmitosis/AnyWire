@@ -30,7 +30,6 @@ void reset_and_wait_for_sht21(HTU2xD_SHT2x_SI70xx* sensor, __FlashStringHelper* 
 }
 
 void setup() {
-    delay(500);
     Serial.begin(9600);
     Serial.print(F("\n"));
 
@@ -65,11 +64,12 @@ void setup() {
     }
 
     Serial.print("CSV output:\n");
+    delay(250);
     Serial.print("time_s,hw_temp_c,hw_temp_f,hw_humid,sw_temp_c,sw_temp_f,sw_humid\n");
 }
 
 void loop() {
-    while (millis() % 1000 > 1) {
+    while (millis() % 1000 > 3) {
         continue;
     }
 
